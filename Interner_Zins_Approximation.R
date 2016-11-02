@@ -1,7 +1,6 @@
 rm(list=ls(all=T))
 graphics.off()
 
-
 epsilon = 0.05                # Größe des erlaubten Fehlers 
                              # (entscheidet über Anzahl der Iterationen)
 i       = seq(0,20,0.01)/100 # Sequenz des Zinses
