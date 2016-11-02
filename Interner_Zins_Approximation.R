@@ -49,5 +49,5 @@ a = (y4*x3 -y3*x4)/(x3-x4)
 b = (y3 - a)/x3#(C.0[which(i==i.star)]-a)/i[which(i==i.star)]
 abline(a=a, b=b,col="red3",lwd=3,lty=2)
 x5 <- x4 - y4*((x3-x4)/(y3-y4))
-text(0.15,1,paste("3. Approximation: i* =",round(multiroot(function(x){a+b*x},start=0.08)$root,digits=4)),lwd=2,cex=1.3)
+text(0.15,1,paste("3. Approximation: i* =",round(x5,digits=4)),lwd=2,cex=1.3)
 }
