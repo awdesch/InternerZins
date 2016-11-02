@@ -13,7 +13,7 @@ Author:   Awdesch Melzer
 Example: 'Interner Zins' 
 
 ```
-![Picture1](08.jpeg)
+![Picture1](10.jpeg)
 
 ```R
 rm(list=ls(all=T))
